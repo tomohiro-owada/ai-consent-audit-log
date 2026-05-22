@@ -1,0 +1,43 @@
+{
+  "action": {
+    "destination_label": "テスト用GitHubリポジトリ",
+    "included_data_labels": [
+      "会話ID",
+      "タイムスタンプのみ"
+    ],
+    "label": "動作確認テスト（MCPサーバーの疎通確認）",
+    "payload_hash": "sha256:test_general_001",
+    "type": "mcp_connection_test"
+  },
+  "confirmation": {
+    "displayed_text_hash": "sha256:cd404631c9e1f92d3ce5d563deb4d14c80d965ec308ba11f98b0667143f99014",
+    "template_id": "default_fixed_v1"
+  },
+  "consent_id": "consent_01KS91GZDE0HW07NAVKA259X6M",
+  "integrity": {
+    "record_hash": "sha256:6c4d345aa65515bef190ee42e0ee63fe6d38d420e6e57b9a21685601fbe9fed5"
+  },
+  "judgement": {
+    "confidence": 1,
+    "method": "normalized_phrase_match",
+    "reason_code": "REQUIRED_PHRASE_MATCHED",
+    "status": "accepted"
+  },
+  "mode": "fixed_phrase",
+  "references": {
+    "confirmation_message_id": null,
+    "conversation_id": "conv_general_test_001",
+    "request_message_id": "msg_001",
+    "user_response_message_id": "msg_002"
+  },
+  "status": "accepted",
+  "timestamps": {
+    "committed_at": "2026-05-22T23:50:09Z",
+    "created_at": "2026-05-22T23:49:57Z",
+    "judged_at": "2026-05-22T23:49:59Z"
+  },
+  "user_response": {
+    "text_hash": "sha256:ae6436a4201c97dbe2b043633bedd6280b2830d73c219dfc7c3ba72b9884a7e5"
+  },
+  "version": "1.0"
+}
